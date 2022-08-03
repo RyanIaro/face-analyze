@@ -1,0 +1,43 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.leftContainer{
+  width: 35vw;
+  height: 50vh;
+  float: left;
+  margin: 20px;
+  background-color: #c0c0c0;
+  border: #777777 1px solid;
+
+}
+
+.rightContainer{
+  margin: 20px;
+  background-color: #c0c0c0;
+  border: #777777 1px solid;
+  font-size: 15px;
+}
+
+input{
+  padding: 10px 20px;
+}
+
+.Image{
+  width: 35vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+}
+
+.Image img{
+  margin: 10%;
+  border: 1px solid #000;
+}
